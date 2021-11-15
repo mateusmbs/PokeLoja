@@ -153,6 +153,7 @@ section {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    
 }
 .buy-button:hover {
     transition: linear 0.3s;
