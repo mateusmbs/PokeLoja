@@ -123,6 +123,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 188.56px;
 
 }
 .pokemon-img {
@@ -197,7 +198,7 @@ section {
 
 
 .aside-section {
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,33 +210,22 @@ section {
     cursor: pointer;
 }
 .aside-advertisement img {
-    width: 300px;
+    width: 245px;
     position: relative;
     display: flex;
     box-shadow: #9b9494 3px 3px 2px;
+    left: auto;
+    right: 19px;
 }
-@keyframes example {
-    0%   {background: red;}
-  25%  { background: blue;}
-  50%  { background: yellow;}
-  75%  { background: green;}
-  100% { background: red;}
-    
-   /* 0%  {color: blue;}
-    0%  {color: green;}*/
-    
-}
+
 .aside-advertisement  h2 {
     position: absolute;
-    top: 330px;
+    top: 287px;
     font-family:Impact, Arial, Helvetica, sans-serif, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    letter-spacing: 1px;
-    text-shadow: #585555 3px 3px 2px;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
+    letter-spacing: 3px;
+    color: #c0baba;
+    
 }
 .aside-advertisement  h3 {
     position: absolute;
@@ -262,7 +252,7 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 .aside-toppokemons ol li .position {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -283,13 +273,17 @@ section {
     width: 220px;
     height: 180px;
     margin-top: 40px;
+    margin-right: auto;
     border-radius: 5px;
     box-shadow: #3b3838 2px 3px 5px;
+    
+    
 }
 .form-title {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     margin-bottom: 10px;
+    
 }
 form label {
     font-size: 16px;
