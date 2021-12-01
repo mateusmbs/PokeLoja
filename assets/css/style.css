@@ -375,6 +375,9 @@ footer {
     margin-left: 5px;
 }
 
+i.material-icons {
+    margin-right: 8px;
+}
 /*-----------------------------------------------------------------*/
 
 @media (min-width:1025px) and (max-width:1120px) {
